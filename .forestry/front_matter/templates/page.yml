@@ -1,4 +1,16 @@
 ---
 label: Page
 hide_body: true
-fields: []
+fields:
+- name: header_text
+  type: text
+  config:
+    required: true
+    min: '20'
+    max: '100'
+  label: Header Text
+- name: sub_header_text
+  type: text
+  config:
+    required: true
+  label: Sub Header Text
